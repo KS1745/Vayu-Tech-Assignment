@@ -23,13 +23,11 @@ Ensure you have the following:
    cd weather app
 
 2. Replace the API Key:
-
-Open script.js and find the line where the API key is used.
-Replace YOUR_API_KEY_HERE with your actual OpenWeatherMap API key.
+   Open script.js and find the line where the API key is used.
+   Replace YOUR_API_KEY_HERE with your actual OpenWeatherMap API key.
 
 3. Run the Project:
-
-Simply open index.html in your web browser.
+   Simply open index.html in your web browser.
 
 🎯 Features
 🌍 Fetches real-time weather for any city.
@@ -44,7 +42,6 @@ Displaying Data: Extracted relevant weather details and updated the UI dynamical
 Enhancing User Experience: Added a loading indicator while fetching data.
 
 ⚠️ Challenges & Solutions
-API Key Exposure: API keys should not be exposed in public repositories. Consider using a backend if deploying.
 Handling Edge Cases: Added checks for empty input, invalid city names, and slow network responses.
 UI Responsiveness: Used CSS media queries for a mobile-friendly layout.
 
