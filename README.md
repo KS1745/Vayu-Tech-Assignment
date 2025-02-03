@@ -30,18 +30,18 @@ Ensure you have the following:
    Simply open index.html in your web browser.
 
 🎯 Features
-🌍 Fetches real-time weather for any city.
-📊 Displays temperature, humidity, and wind speed.
-☁️ Shows weather conditions with icons.
-🔄 User-friendly and responsive design.
+    Fetches real-time weather for any city.
+    Displays temperature, humidity, and wind speed.
+    Shows weather conditions with icons.
+    User-friendly and responsive design.
 
 💡 Approach
-Fetching Data
-Handling API Responses: Implemented error handling for invalid cities or network issues.
-Displaying Data: Extracted relevant weather details and updated the UI dynamically.
-Enhancing User Experience: Added a loading indicator while fetching data.
+    Fetching Data
+    Handling API Responses: Implemented error handling for invalid cities or network issues.
+    Displaying Data: Extracted relevant weather details and updated the UI dynamically.
+    Enhancing User Experience: Added a loading indicator while fetching data.
 
 ⚠️ Challenges & Solutions
-Handling Edge Cases: Added checks for empty input, invalid city names, and slow network responses.
-UI Responsiveness: Used CSS media queries for a mobile-friendly layout.
+    Handling Edge Cases: Added checks for empty input, invalid city names, and slow network responses.
+    UI Responsiveness: Used CSS media queries for a mobile-friendly layout.
 
