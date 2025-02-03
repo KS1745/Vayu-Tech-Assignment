@@ -1,0 +1,159 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.container {
+    max-width: 400px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+h1 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+button {
+    background: #ff9800;
+    color: #fff;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #e68900;
+}
+
+
+#geo-btn {
+    margin-top: 10px;
+    width: 100%;
+    background: #00c853;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+#geo-btn:hover {
+    background: #009624;
+}
+
+
+#weather-info {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.hidden {
+    display: none;
+}
+
+#city-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#weather-icon {
+    width: 100px;
+    margin: 10px auto;
+    display: block;
+}
+
+#temperature {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#humidity, #weather-condition {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+
+#unit-toggle {
+    margin-top: 10px;
+    background: #2196f3;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+#unit-toggle:hover {
+    background: #1976d2;
+}
+
+
+#error-message {
+    color: #ff4d4d;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+@media (max-width: 500px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    input {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    #geo-btn, #unit-toggle {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
